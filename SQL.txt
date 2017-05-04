@@ -1,0 +1,14 @@
+//These are the SQL codes that need to be put into the Database. Please place each part indivisually.
+
+//Part 1
+CREATE DATABASE chapter
+
+//Part 2 (Add Table Member)
+
+CREATE TABLE member (
+    ID int NOT NULL,
+    name varchar(255) NOT NULL,
+    ca_number varchar(255),
+    email varchar(255),
+    PRIMARY KEY (ID)
+);
