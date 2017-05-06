@@ -1,4 +1,9 @@
 <html>
+ 
+<head>
+	<title>EAOS</title>
+</head>
+
  <link rel="stylesheet" href="stylehome.css">
 <div class="container-fluid">
 	<div class="row">

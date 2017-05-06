@@ -29,19 +29,19 @@ PRIMARY KEY(id)
 )";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+    echo "Event Entry created successfully";
 
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 if ($conn->query($sql1) === TRUE) {
-    echo "New record created successfully";
+    echo "New Event Table created successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
-//header( "refresh:5;url=memberadd.php" );
+header( "refresh:5;url=memberadd.php" );
 
  ?>
